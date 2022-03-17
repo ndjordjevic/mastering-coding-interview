@@ -25,6 +25,13 @@ func Test_reverseString(t *testing.T) {
 			},
 			want: "dlrow olleH",
 		},
+		{
+			name: "Should reverse a string Tijana -> anajiT",
+			args: args{
+				str: "Tijana",
+			},
+			want: "anajiT",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

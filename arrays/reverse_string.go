@@ -1,5 +1,7 @@
 package arrays
 
+// Tijana -> anajiT
+// Nenad -> daneN
 func reverseString(str string) string {
 	runes := []rune(str)
 	n := len(runes)
@@ -10,3 +12,5 @@ func reverseString(str string) string {
 
 	return string(runes)
 }
+
+// O(n), O(n)
